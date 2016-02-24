@@ -1,0 +1,35 @@
+{
+	"manifest_version":2,
+	"name":"Auto Logout",
+	"description":"Automagically logout from a site after certain time.",
+	"version":"1.0",
+	
+	"content_scripts":[
+		{
+			"matches": ["http://www.facebook.com/*", "https://www.facebook.com/*", "http://stackoverflow.com/*", "https://www.quora.com/*"],
+			"js" :["scripts/logout.js"]
+		}
+	],
+
+	"browser_action":{
+		"default_title":"You will be logged out in 10 minutes.",
+		"default_icon":"icons/icon.png",
+		"default_popup":"popup.html"
+		},
+
+	"permissions":[
+			"activeTab",
+			"alarms",
+			"declarativeContent",	
+			"idle",
+			"notifications",
+			"storage",
+			"tabCapture",
+			"tabs",
+			"topSites",
+			"http://stackoverflow.com/*",
+			"https://www.facebook.com/*",
+			"https://www.twitter.com/*",
+			"https://www.quora.com/*"	
+		      ]
+}
