@@ -3,11 +3,14 @@
 	"name":"Auto Logout",
 	"description":"Automagically logout from a site after certain time.",
 	"version":"1.0",
+	"icons":{
+			"128":"icons/icon.png"
+		},
 	
 	"content_scripts":[
 		{
 			"matches": ["http://www.facebook.com/*", "https://www.facebook.com/*", "http://stackoverflow.com/*", "https://www.quora.com/*"],
-			"js" :["scripts/logout.js"]
+			"js" :["scripts/logout.js", "scripts/jquery-1.12.1.min.js"]
 		}
 	],
 
