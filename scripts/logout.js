@@ -1,6 +1,25 @@
-var timer = window.setInterval(logout, 600000);
-var i = 0;
+var timer = window.setInterval(logout, 3000);
+
+function quoraLogoutCheck(action){	
+	if(action.indexOf("logout") > 0){
+		return true;
+	}
+	return false;
+}
+
+function stopTimer(){
+	clearTimeout(timer);
+}
+
 function logout(){
-	alert("10 minutes over.. Tab will be closed now");
-	window.close();
+	
+	var logoutForm = document.getElementsByTagName("form")[0];
+
+	if(quoraLogoutCheck(logoutForm.action)){
+		alert("You will be logged out now.");
+		document.getElementsByTagName("form")[0].submit();
+		stopTimer();
+	}else{
+		console.log("no logout");
+	}	
 }
