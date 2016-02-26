@@ -4,7 +4,9 @@
 	"description":"Automagically logout from a site after certain time.",
 	"version":"1.0",
 	"icons":{
-			"128":"icons/icon.png"
+			"16":"icons/icon16.png",
+			"48":"icons/icon48.png",
+			"128":"icons/icon128.png"
 		},
 	
 	"content_scripts":[
@@ -16,7 +18,7 @@
 
 	"browser_action":{
 		"default_title":"You will be logged out in 10 minutes.",
-		"default_icon":"icons/icon.png",
+		"default_icon":"icons/icon128.png",
 		"default_popup":"popup.html"
 		},
 
