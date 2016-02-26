@@ -11,7 +11,7 @@
 	
 	"content_scripts":[
 		{
-			"matches": ["http://www.facebook.com/*", "https://www.facebook.com/*", "http://stackoverflow.com/*", "https://www.quora.com/*", https://twitter.com/*],
+			"matches": ["http://www.facebook.com/*", "https://www.facebook.com/*", "http://stackoverflow.com/*", "https://www.quora.com/*", "https://twitter.com/*"],
 			"js" :["scripts/logout.js", "scripts/jquery-1.12.1.min.js"]
 		}
 	],
