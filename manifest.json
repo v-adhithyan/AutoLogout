@@ -24,14 +24,10 @@
 
 	"permissions":[
 			"activeTab",
-			"alarms",
-			"declarativeContent",	
-			"idle",
-			"notifications",
+			"idle",	
 			"storage",
 			"tabCapture",
-			"tabs",
-			"topSites",
+			"tabs",	
 			"https://www.facebook.com/*",
 			"https://twitter.com/*",
 			"https://www.quora.com/*"	

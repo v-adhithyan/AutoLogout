@@ -12,7 +12,7 @@ function stopTimer(){
 }
 
 function logout(){
-	
+	var currentPage = window.location.href;
 	var logoutForm = document.getElementsByTagName("form")[0];
 
 	if(quoraLogoutCheck(logoutForm.action)){
