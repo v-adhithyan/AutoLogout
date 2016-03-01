@@ -20,23 +20,27 @@ function stopTimer(){
 function isUndefined(obj){
 	if(typeof obj === 'undefined')
 		return true;
-	else if(obj == null)
+	else if(obj === null)
 		return true;
 	return false;
+}
+
+function showLogoutAlert(){
+	alert("10 minutes up. You will be logged out now.");
 }
 
 function logout(){
 	var currentPage = window.location.href;
 	var logoutForm = document.getElementsByTagName("form")[0];
 
-	console.log("current page:"+currentPage);
+	//console.log("current page:"+currentPage);
 
 	if(currentPage.indexOf("twitter") > 0){
 		
 		var signoutButton = document.getElementById("signout-button");
 		
 		if(!isUndefined(signoutButton) && logoutCheck(signoutButton.id)){
-			alert("You will be logged out now.");
+			showLogoutAlert();	
 			signoutButton.click();		
 		}
 
@@ -46,7 +50,7 @@ function logout(){
 		var logoutForm = document.getElementsByTagName("form")[0];
 		
 		if(!isUndefined(logoutForm) && logoutCheck(logoutForm.action)){
-			alert("You will be logged out now.");
+			showLogoutAlert();			
 			document.getElementsByTagName("form")[0].submit();
 		}
 
@@ -64,7 +68,7 @@ function logout(){
 			var logoutForm = document.getElementsByClassName("_w0d")[0];
 			if(!isUndefined(logoutForm)){
 				observer.disconnect();
-				alert("You will be logged out now.");
+				showLogoutAlert();	
 				logoutForm.submit();
 			}
 		});
