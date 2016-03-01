@@ -13,7 +13,7 @@ AutoLogout is a simple chrome extension that automagically logs you out from fac
 
 ## Quick Start
 
-* [Click here](https://tr.im/autologout) to install the extension. (Clicking the link will take you to chrome web store and from there click ADD TO CHROME button to add this extension to chrome.)
+* [Click here](https://tr.im/autologout) to install the extension. (Clicking the link will take you to chrome web store and from there click ADD TO CHROME button to install.)
 * After installing, open [facebook](https://www.facebook.com), [quora](https://www.quora.com) or [twitter](https://twitter.com). 
 * If you have logged in, after 10 minutes, an alert dialog will appear saying "10 minutes over. You will be logged out now". 
 * Clicking OK, will automatically log you out from the site. There is no need to search the logout option in the page and click that. The extension automatically does that for you.
