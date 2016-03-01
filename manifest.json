@@ -12,7 +12,7 @@
 	"content_scripts":[
 		{
 			"matches": ["https://www.facebook.com/*", "https://www.quora.com/*", "https://twitter.com/*"],
-			"js" :["scripts/logout.js", "scripts/jquery-1.12.1.min.js"]
+			"js" :["scripts/logout.js"]
 		}
 	],
 
