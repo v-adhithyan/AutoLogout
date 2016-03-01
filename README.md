@@ -9,7 +9,7 @@ AutoLogout is a simple chrome extension that automagically logs you out from fac
 * [Documentation](#documentation)
 * [Contributing](#contributing)
 * [Versoning](#versoning)
-* [Copyright and license)(#copyright-and-license)
+* [Copyright and license](#copyright-and-license)
 
 ## Copyright and license
 
