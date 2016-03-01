@@ -1,6 +1,17 @@
-# AutoLogout Chrome Extension
+# [AutoLogout Chrome Extension](https://tr.im/autologout)
 
-## License
+AutoLogout is a simple chrome extension that automagically logs you out from facebook, quora or twitter after 10 minutes.
+
+## Table of Contents
+
+* [Quick Start](#quick-start)
+* [Bugs and feature requests](#bugs-and-feature-requests)
+* [Documentation](#documentation)
+* [Contributing](#contributing)
+* [Versoning](#versoning)
+* [Copyright and license)(#copyright-and-license)
+
+## Copyright and license
 
 The MIT License (MIT)
 
