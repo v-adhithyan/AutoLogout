@@ -1,17 +1,4 @@
-//for production
-//var timer = window.setInterval(logout, 600000);
-//for testing
-var timer = window.setInterval(logout, 3000);
-
-function logoutCheck(action){	
-	if(action.indexOf("logout") > 0){
-		return true;
-	}
-	else if(action.indexOf("signout") > 0){
-		return true;
-	}
-	return false;
-}
+var timer = window.setInterval(logout, 600000);
 
 function stopTimer(){
 	clearTimeout(timer);
@@ -20,7 +7,7 @@ function stopTimer(){
 function isUndefined(obj){
 	if(typeof obj === 'undefined')
 		return true;
-	else if(obj === null)
+	else if(!obj)
 		return true;
 	return false;
 }
@@ -38,20 +25,24 @@ function logout(){
 	if(currentPage.indexOf("twitter") > 0){
 		
 		var signoutButton = document.getElementById("signout-button");
-		
-		if(!isUndefined(signoutButton) && logoutCheck(signoutButton.id)){
+	
+		if(!isUndefined(signoutButton)){
 			showLogoutAlert();	
 			signoutButton.click();		
 		}
 
 	}
 	else if(currentPage.indexOf("quora") > 0){
-			
-		var logoutForm = document.getElementsByTagName("form")[0];
 		
-		if(!isUndefined(logoutForm) && logoutCheck(logoutForm.action)){
-			showLogoutAlert();			
-			document.getElementsByTagName("form")[0].submit();
+		var newsFeedCheck = document.getElementsByClassName("selector_input text")[0];	
+	
+		if(!isUndefined(newsFeedCheck)){
+			var logoutForm = document.getElementsByTagName("form")[0];
+		
+			if(!isUndefined(logoutForm)){
+				showLogoutAlert();			
+				document.getElementsByTagName("form")[0].submit();
+			}
 		}
 
 	}

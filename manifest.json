@@ -11,14 +11,16 @@
 	
 	"content_scripts":[
 		{
-			"matches": ["https://www.facebook.com/*", "https://www.quora.com/*", "https://twitter.com/*"],
+			"matches": ["https://www.facebook.com/*", "https://www.quora.com/", "https://twitter.com/*"],
 			"js" :["scripts/logout.js"]
 		}
 	],
 
 	"browser_action":{
 		"default_title":"You will be logged out in 10 minutes.",
-		"default_icon":"icons/icon128.png",
+		"default_icon":{
+				"38":"icons/icon38.png"
+				},
 		"default_popup":"popup.html"
 		},
 
