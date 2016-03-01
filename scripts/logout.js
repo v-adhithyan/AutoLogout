@@ -49,11 +49,11 @@ function logout(){
 	else if(currentPage.indexOf("facebook") > 0){
 		var insertedNodes = [];
 		var observer = new WebKitMutationObserver(function(mutations){
-			console.log("dom change");
+			//console.log("dom change");
 			mutations.forEach(function(mutation){
 				for(var j=0; j<mutation.addedNodes.length; j++)
 				insertedNodes.push(mutation.addedNodes[j]);
-				console.log("j"+insertedNodes[j].id);
+				//console.log("j"+insertedNodes[j].id);
 			})
 
 			var logoutForm = document.getElementsByClassName("_w0d")[0];
