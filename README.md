@@ -24,6 +24,12 @@ AutoLogout is a simple chrome extension that automagically logs you out from fac
 * [Install](https://tr.im/autologout) the extension. Sit back and browse fb, quora or twitter. After 10 minutes, you will be logged out. It's simple. Just like that.
 * Save time. Be productive!
 
+## Bugs and feature requests
+
+Have a bug? Search for existing and closed issues. If your issue or problem is not addressed yet, please open a [new issue](https://github.com/v-adhithyan/AutoLogout/issues/new).
+
+Have a idea or a feature that will make the extension better? Then fork the repo, do your changes and feel free to submit a pull request.
+
 ## Copyright and license
 
 The MIT License (MIT)
