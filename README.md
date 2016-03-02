@@ -4,7 +4,7 @@ AutoLogout is a simple chrome extension that automagically logs you out from fac
 
 ## Table of Contents
 
-* [Quick Start](#quick-start)
+* [Installation](#installation)
 * [How to use?](#how-to-use)
 * [Bugs and feature requests](#bugs-and-feature-requests)
 * [Documentation](#documentation)
@@ -12,7 +12,7 @@ AutoLogout is a simple chrome extension that automagically logs you out from fac
 * [Versoning](#versoning)
 * [Copyright and license](#copyright-and-license)
 
-## Quick Start
+## Installation
 
 * [Click here](https://tr.im/autologout) to install the extension. (Clicking the link will take you to chrome web store and from there click ADD TO CHROME button to add this extension to chrome.)
 
