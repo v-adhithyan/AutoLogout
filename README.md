@@ -31,7 +31,7 @@ Have a idea or a feature that will make the extension better? Then fork the repo
 
 ## Versoning
 
-This project is maintained under [the Semantic Versioning guidelines](semver.org)
+This project is maintained under [the Semantic Versioning guidelines](http://semver.org)
 
 ## Copyright and license
 
