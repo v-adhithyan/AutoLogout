@@ -2,7 +2,8 @@
 	"manifest_version":2,
 	"name":"Auto Logout",
 	"description":"Automagically logout from facebook, twitter and quora after 10 minutes.",
-	"version":"1.0",
+	"version":"2.0",
+	"author": "Adhithyan Vijayakumar",
 	"icons":{
 			"16":"icons/icon16.png",
 			"48":"icons/icon48.png",
@@ -11,9 +12,20 @@
 	
 	"content_scripts":[
 		{
-			"matches": ["https://www.facebook.com/*", "https://www.quora.com/", "https://twitter.com/*"],
-			"js" :["scripts/logout.js"]
-		}
+      		"run_at" : "document_end",
+      		"matches" : ["https://www.facebook.com/*"],
+      		"js" : ["scripts/base.js", "scripts/facebook.js"]
+    	},
+    	{
+      		"run_at" : "document_end",
+      		"matches" : ["http://www.quora.com/*"],
+      		"js" : ["scripts/base.js", "scripts/quora.js"]
+    	},
+    	{
+      		"run_at" : "document_end",
+      		"matches" : ["https://twitter.com/*"],
+      		"js" : ["scripts/base.js", "scripts/twitter.js"]
+    	}
 	],
 
 	"browser_action":{
