@@ -1,4 +1,4 @@
-# [AutoLogout Chrome Extension](https://tr.im/autologout) (42 users currently)
+# AutoLogout Chrome Extension
 
 AutoLogout is a simple chrome extension that automagically logs you out from facebook, quora or twitter after 10 minutes.
 
