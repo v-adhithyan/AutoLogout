@@ -1,4 +1,7 @@
-# [AutoLogout Chrome Extension](https://tr.im/autologout) (42 users currently)
+<a target="_blank" href="https://chrome.google.com/webstore/detail/auto-logout/affkccgnaoeohjnojjnpdalhpjhdiebh">![Try it now in CWS](https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton.png "Click here to install this sample from the Chrome Web Store")</a>
+
+
+# AutoLogout Chrome Extension
 
 AutoLogout is a simple chrome extension that automagically logs you out from facebook, quora or twitter after 10 minutes.
 
@@ -7,13 +10,12 @@ AutoLogout is a simple chrome extension that automagically logs you out from fac
 * [Installation](#installation)
 * [How to use?](#how-to-use)
 * [Bugs and feature requests](#bugs-and-feature-requests)
-* [Documentation](#documentation)
-* [Versoning](#versoning)
+* [Contributors](#contributors)
 * [Copyright and license](#copyright-and-license)
 
 ## Installation
 
-* [Click here](https://tr.im/autologout) to install the extension. (Clicking the link will take you to chrome web store and from there click ADD TO CHROME button to add this extension to chrome.)
+* [Click here](https://chrome.google.com/webstore/detail/auto-logout/affkccgnaoeohjnojjnpdalhpjhdiebh) to install the extension. (Clicking the link will take you to chrome web store and from there click ADD TO CHROME button to add this extension to chrome.)
 
 ## How to use?
 
@@ -33,26 +35,10 @@ Have a idea or a feature that will make the extension better? Then fork the repo
 
 This project is maintained under [the Semantic Versioning guidelines](http://semver.org)
 
+## Contributors
+* [Adhithyan V](https://github.com/v-adhithyan)
+* [Rajdeep Kaur](https://github.com/clock21am)
+
 ## Copyright and license
 
-The MIT License (MIT)
-
-Copyright (c) 2016 Adhithyan Vijayakumar
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+This project is maintained under MIT license. See [license file](https://raw.githubusercontent.com/v-adhithyan/AutoLogout/master/LICENSE.md) for more info.
