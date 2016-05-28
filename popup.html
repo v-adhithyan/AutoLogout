@@ -1,23 +1,19 @@
 <html>
 	<head>
-		<style>
-			body{
-				font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
-				font-size: 100%;
-				width: 500;
-				height: auto;
-			    }
-		</style>	
+		<link rel="stylesheet" href="static/css/base.css"/>
+		<script type="text/javascript">
+				//uses code from https://bufferwall.com/petersirka/2015-03-12-tutorial-simple-html-toggle-button/
+				$(document).on('click', '.toggle-button', function() {
+					$(this).toggleClass('toggle-button-selected');
+				});
+				//#00CED1
+		</script>
 	</head>
 	<body>
 		<center><h2>Auto Logout</h2></center>
-		<p>
-		<div id="message">
-			<li>An utility to logout automatically after 10 minutes from facebook, twitter and quora.</li>
-		<br/>
-		<li>Avoid distraction. Be productive!</li>
-		</div>
-		</p>
+		<center>
+			<font color="blue"><a href="static/fb.html">Change facebook settings</a></font><br><br>
+			<font color="#00CED1"><a href="static/twitter.html">Change twitter settings</a></font><br><br>
+			<font color="red"><a href="static/quora.html">Change quora settings</a></font><br><br>
 	</body>
 </html>
-
