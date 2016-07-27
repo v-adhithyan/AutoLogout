@@ -31,10 +31,6 @@ Have a bug? Search for existing and closed issues. If your issue or problem is n
 
 Have a idea or a feature that will make the extension better? Then fork the repo, do your changes and feel free to submit a pull request.
 
-## Versoning
-
-This project is maintained under [the Semantic Versioning guidelines](http://semver.org)
-
 ## Contributors
 * [Adhithyan V](https://github.com/v-adhithyan)
 * [Rajdeep Kaur](https://github.com/clock21am)
