@@ -31,6 +31,14 @@ Have a bug? Search for existing and closed issues. If your issue or problem is n
 
 Have a idea or a feature that will make the extension better? Then fork the repo, do your changes and feel free to submit a pull request.
 
+##T Todo
+
+- [ ] Add linkedin support
+- [ ] Add medium support
+- [ ] Add Instagram support
+- [ ] Show time left in popup
+- [ ] Allow user to configure time left
+
 ## Contributors
 * [Adhithyan V](https://github.com/v-adhithyan)
 * [Rajdeep Kaur](https://github.com/clock21am)
