@@ -9,7 +9,7 @@
 			"48":"icons/icon48.png",
 			"128":"icons/icon128.png"
 		},
-	
+
 	"content_scripts":[
 		{
       		"run_at" : "document_end",
@@ -33,17 +33,17 @@
 		"default_icon":{
 				"38":"icons/icon38.png"
 				},
-		"default_popup":"popup.html"
+		"default_popup":"new_popup.html"
 		},
 
 	"permissions":[
 			"activeTab",
-			"idle",	
+			"idle",
 			"storage",
 			"tabCapture",
-			"tabs",	
+			"tabs",
 			"https://www.facebook.com/*",
 			"https://twitter.com/*",
-			"https://www.quora.com/*"	
+			"https://www.quora.com/*"
 		      ]
 }
