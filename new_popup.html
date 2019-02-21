@@ -7,6 +7,7 @@
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="static/css/materialize.min.css"  media="screen,projection"/>
     <link type="text/css" rel="stylesheet" href="static/css/new_style.css"/>
+
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   </head>
@@ -22,7 +23,17 @@
       <div class="card white">
         <div class="card-content black-text">
           <p>Time left:</p>
-          <span class="card-title" id="time-left" style="text-align:justify;">5 minutes 37 sec</span>
+          <span id="time-remaining" class="card-title" style="text-align:justify;">10</span>:
+          <script>
+          function updateTimeLeft() {
+            let minutes = localStorage.getItem("al_minutes");
+            let seconds = localStorage.getItem("al_seconds");
+            var timeRemaining = document.getElementById("time-remaining");
+            timeRemaining.value = minutes + " minutes " + seconds + " seconds left."
+            console.log("here");
+          }
+            window.setInterval(1000, updateTimeLeft);
+          </script>
         </div>
       </div>
     </div>
@@ -41,6 +52,7 @@
         <div class="input-field col s12">
           <input id="time" type="number" class="validate">
           <label for="time" class="blue-text text-darken-2">Time in Minutes</label>
+
         </div>
       </div>
     </form>
